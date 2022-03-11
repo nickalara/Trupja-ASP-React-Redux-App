@@ -3,7 +3,7 @@ using Trupja_ASP_React_Redux_App.Data.Models;
 
 namespace Trupja_ASP_React_Redux_App.Data.Services
 {
-    public class ITripServices
+    public interface ITripServices
     {
         List<Trip> GetAllTrips();
         Trip GetTripById(int tripId);
